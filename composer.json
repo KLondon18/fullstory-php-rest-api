@@ -4,6 +4,8 @@
   "keywords": ["Fullstory"],
   "license": ["Apache-2.0", "GPL-2.0+"],
   "type": "library",
+  "minimum-stability":"stable",
+  "prefer-stable":true,
   "authors": [
     {
       "name": "Upme",
@@ -13,7 +15,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "liorphp\\FullstoryPhpRestApi\\": "src/"
+      "FullstoryPhpRestApi\\": "src/"
     }
   },
   "require": {

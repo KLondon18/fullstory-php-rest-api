@@ -1,6 +1,6 @@
 <?php
 
-namespace liorphp\FullstoryPhpRestApi;
+namespace FullstoryPhpRestApi;
 
 class Fullstory {
 
