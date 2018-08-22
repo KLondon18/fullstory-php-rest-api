@@ -1,0 +1,23 @@
+{
+  "name": "liorphp/fullstory-php-rest-api",
+  "description": "Php library for Fullstory",
+  "keywords": ["Fullstory"],
+  "license": ["Apache-2.0", "GPL-2.0+"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Upme",
+      "email": "upme.co.il@gmail.com",
+      "homepage": "https://www.upme.co.il"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "liorphp\\FullstoryPhpRestApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/psr7": "~1.1"
+  }
+}
